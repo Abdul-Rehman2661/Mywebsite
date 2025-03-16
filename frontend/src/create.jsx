@@ -21,7 +21,7 @@ function create() {
         <Form.Control as="textarea" rows={1} onChange={(e) => setTask(e.target.value)} />
       </Form.Group>
     </Form>
-    <Button onClick={addtodo} variant="primary">Add Todo</Button>
+    <Button  className="btn btn-sm btn-success" onClick={addtodo} variant="primary">Add Todo</Button>
     </div>
   )
 }
